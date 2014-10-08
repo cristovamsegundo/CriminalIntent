@@ -8,15 +8,16 @@ import android.util.Log;
 public class Crime {
 	private UUID mId;
 	private String mTitle;
-	private Date mDate;
-	private boolean mSolved;
+    private Date mDate;
+    private boolean mSolved;
+
 	private static final String TAG = "CrimeActivity";
 	
 	public Crime() {
 		// Generate unique identifier
 		mId = UUID.randomUUID() ;
-		// Gets the current date
-		mDate = new Date();
+        // Creates a Date object with the date when it's created
+        mDate = new Date();
 	}
 
 	public UUID getId() {
@@ -32,23 +33,24 @@ public class Crime {
 		Log.d(TAG, mTitle);
 	}
 
-	public Date getDate() {
-		return mDate;
-	}
+    public Date getDate() {
+        return mDate;
+    }
 
-	public void setDate(Date date) {
-		this.mDate = date;
-	}
+    public void setDate(Date mDate) {
+        this.mDate = mDate;
+    }
 
-	public boolean ismSolved() {
-		return mSolved;
-	}
+    public boolean isSolved() {
+        return mSolved;
+    }
 
-	public void setmSolved(boolean solved) {
-		this.mSolved = solved;
-	}
-	
-	
-	
+    public void setSolved(boolean mSolved) {
+        this.mSolved = mSolved;
+    }
 
+    @Override
+    public String toString(){
+        return mTitle;
+    }
 }
