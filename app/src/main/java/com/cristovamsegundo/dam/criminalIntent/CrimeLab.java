@@ -14,7 +14,7 @@ public class CrimeLab {
     private Context mAppContext;
 
     private CrimeLab(Context appContext){ //Singleton pattern
-        mAppContext = mAppContext;
+        mAppContext = appContext;
         mCrimes = new ArrayList<Crime>();
         for (int i = 0; i<100; i++){
             Crime c = new Crime();
