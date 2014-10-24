@@ -928,6 +928,7 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
+        public static final int ic_menu_add=0x7f020058;
     }
     public static final class id {
         public static final int action_bar=0x7f07001d;
@@ -970,6 +971,7 @@ containing a value of this type.
         public static final int image=0x7f070028;
         public static final int listMode=0x7f070001;
         public static final int list_item=0x7f07002a;
+        public static final int menu_item_new_crime=0x7f070046;
         public static final int middle=0x7f07000b;
         public static final int never=0x7f07000d;
         public static final int none=0x7f070009;
@@ -1037,6 +1039,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int crime=0x7f0c0000;
+        public static final int fragment_crime_list=0x7f0c0001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -1060,7 +1063,12 @@ containing a value of this type.
         public static final int crime_title_label=0x7f0a0012;
         public static final int crimes_title=0x7f0a0013;
         public static final int date_picker_title=0x7f0a0014;
-        public static final int title_activity_crime=0x7f0a0015;
+        public static final int delete_crime=0x7f0a0015;
+        public static final int hide_subtitle=0x7f0a0016;
+        public static final int new_crime=0x7f0a0017;
+        public static final int show_subtitle=0x7f0a0018;
+        public static final int subtitle=0x7f0a0019;
+        public static final int title_activity_crime=0x7f0a001a;
     }
     public static final class style {
         /** 
