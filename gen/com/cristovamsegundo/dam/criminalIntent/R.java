@@ -1078,6 +1078,7 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
+        public static final int ic_menu_add=0x7f020058;
     }
     public static final class id {
         public static final int action_bar=0x7f05001d;
@@ -1091,20 +1092,21 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050025;
-        public static final int action_settings=0x7f050044;
+        public static final int action_settings=0x7f050045;
         public static final int activity_chooser_view_content=0x7f050026;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int checkbox=0x7f05002e;
         public static final int collapseActionView=0x7f05000d;
-        public static final int crime_date=0x7f05003f;
-        public static final int crime_list_item_dateTextView=0x7f050043;
-        public static final int crime_list_item_solvedCheckBox=0x7f050041;
-        public static final int crime_list_item_titleTextView=0x7f050042;
-        public static final int crime_solved=0x7f050040;
-        public static final int crime_title=0x7f05003e;
+        public static final int crime_date=0x7f050040;
+        public static final int crime_list_item_dateTextView=0x7f050044;
+        public static final int crime_list_item_solvedCheckBox=0x7f050042;
+        public static final int crime_list_item_titleTextView=0x7f050043;
+        public static final int crime_solved=0x7f050041;
+        public static final int crime_title=0x7f05003f;
         public static final int default_activity_button=0x7f050029;
         public static final int dialog=0x7f05000e;
+        public static final int dialog_date_datePicker=0x7f05003e;
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050031;
@@ -1119,6 +1121,7 @@ containing a value of this type.
         public static final int image=0x7f050028;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f05002a;
+        public static final int menu_item_new_crime=0x7f050046;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1201,12 +1204,14 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_fragment=0x7f030018;
-        public static final int fragment_crime=0x7f030019;
-        public static final int list_item_crime=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int dialog_date=0x7f030019;
+        public static final int fragment_crime=0x7f03001a;
+        public static final int list_item_crime=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int crime=0x7f0c0000;
+        public static final int fragment_crime_list=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1256,6 +1261,13 @@ containing a value of this type.
         public static final int crime_title_hint=0x7f0a0010;
         public static final int crime_title_label=0x7f0a0011;
         public static final int crimes_title=0x7f0a0014;
+        public static final int date_picker_title=0x7f0a0015;
+        public static final int delete_crime=0x7f0a001a;
+        public static final int hide_subtitle=0x7f0a0018;
+        public static final int new_crime=0x7f0a0016;
+        public static final int no_crimes=0x7f0a001b;
+        public static final int show_subtitle=0x7f0a0017;
+        public static final int subtitle=0x7f0a0019;
         public static final int title_activity_crime=0x7f0a000f;
     }
     public static final class style {
